@@ -133,10 +133,9 @@ PAGE: ABOUT
 ****************************/
 
 .profile-photo {
-  display: block;
-  max-width: 150px;
-  margin: 0 auto 30px;
-  border-radius: 10%;
+  outline-style: solid;
+  outline-color: #000;
+  outline-width: thin;
 }
 
 
