@@ -126,7 +126,7 @@ PAGE: PHOTOSHOP
 #gallery li a p {
   margin: 0;
   padding: 5%;
-  color: #4D4D4D;
+  color: #000;
 }
 
 #gallery li a img {
@@ -190,7 +190,7 @@ COLORS
 /* site body */
 body {
   background-color: #fff;
-  color: #999;
+  color: #000;
 }
 
 /* green header */
@@ -211,7 +211,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: #0062FF;
 }
 
 /* nav link */
