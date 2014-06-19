@@ -36,7 +36,6 @@ header {
 }
 
 #logo {
-  text-align: center;
   margin: 0;
 }
 
@@ -101,8 +100,13 @@ footer {
 
 
 /****************************
-PAGE: PHOTOSHOP
+PAGE: PHOTOGRAPHY
 ****************************/
+  
+.description {
+  font-size: 1.25em;
+  margin: 0 2.5% 2%;
+}
 
 #gallery {
   margin: 0;
