@@ -100,10 +100,33 @@ footer {
 
 
 /****************************
-PAGE: ANIMATION
+PAGE: BRICKBREAKER
 ****************************/
 
-object {
+#brickbreaker {
+  display: block;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: -90px;
+}
+
+#ontop {
+  position: relative;
+}
+
+#onbottom {
+  position: relative;
+  top: 590px;
+}
+
+
+
+/****************************
+PAGE: MASTERMIND
+****************************/
+
+#mastermind {
   outline-style: solid;
   outline-color: #000;
   outline-width: thin;
