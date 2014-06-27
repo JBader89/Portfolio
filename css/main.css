@@ -77,7 +77,7 @@ nav li {
 
 nav a {
   font-weight: 800;
-  padding: 15px 10px;
+  padding: 15px 5px;
 }
 
 /****************************
@@ -95,6 +95,33 @@ footer {
   width: 20px;
   height: 20px;
   margin: 0 5px;
+}
+
+
+
+/****************************
+PAGE: ANIMATION
+****************************/
+
+object {
+  outline-style: solid;
+  outline-color: #000;
+  outline-width: thin;
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+/****************************
+PAGE: ANIMATION
+****************************/
+
+#youtube {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
@@ -139,6 +166,15 @@ PAGE: PHOTOGRAPHY
   outline-width: thin;
 }
 
+#gallery li a img:hover {
+    cursor: pointer;
+    transform:scale(2);
+    -ms-transform:scale(2); /* IE 9 */
+    -moz-transform:scale(2); /* Firefox */
+    -webkit-transform:scale(2); /* Safari and Chrome */
+    -o-transform:scale(2); /* Opera */
+}
+
 
 
 /****************************
@@ -149,6 +185,7 @@ PAGE: ABOUT
   outline-style: solid;
   outline-color: #000;
   outline-width: thin;
+
 }
 
 
