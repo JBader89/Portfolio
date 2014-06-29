@@ -104,20 +104,9 @@ PAGE: BRICKBREAKER
 ****************************/
 
 #brickbreaker {
-  display: block;
-  position: absolute;
-  left: 5%;
-  right: 5%;
-  bottom: -90px;
-}
-
-#ontop {
   position: relative;
-}
-
-#onbottom {
-  position: relative;
-  top: 590px;
+  right: 310px;
+  top: 50px;
 }
 
 
@@ -130,7 +119,7 @@ PAGE: MASTERMIND
   outline-style: solid;
   outline-color: #000;
   outline-width: thin;
-  display:block;
+  display: block;
   margin-right: auto;
   margin-left: auto;
 }
